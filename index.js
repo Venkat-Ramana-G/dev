@@ -39,6 +39,6 @@ app.get('/download',function(req,res){
 	res.download(req.query.file_path);
 })
 
-app.listen(3000,function(){
+app.listen(8000,function(){
 	console.log('Server listing on 3000');
 });
